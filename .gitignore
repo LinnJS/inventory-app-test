@@ -1,0 +1,13 @@
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+
+# Build directory
+/public
+/storybook
+.DS_Store
+.idea
+
+# dotenv environment variable files
+.env*

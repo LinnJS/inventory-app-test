@@ -1,0 +1,25 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#fefefe",
+    "titleBar.inactiveForeground": "#fefefe",
+    "titleBar.activeBackground": "#031d42",
+    "titleBar.inactiveBackground": "#031d42"
+  },
+  // These are all my auto-save configs
+  "editor.formatOnSave": true,
+  // turn it off for JS and JSX, we will do this via eslint
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "cSpell.words": [
+    "datetime"
+  ],
+  "tinypng.apiKey": "4f3907w6jHLr3pwZFzQcRqNKXgHCPQky",
+}
